@@ -11,6 +11,6 @@ public class Resources {
     @ApplicationScoped
     public SenderClient getSenderClient() {
        // initialize to point to the hostname of the running UnifiedPush server
-       return new SenderClient("http://aerogear-mhsueh.rhcloud.com");
+       return new SenderClient("https://aerogear-mhsueh.rhcloud.com");
     }
 }
